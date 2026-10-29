@@ -26,7 +26,7 @@ The HTML report is written to `reports/report.html`.
 - `.github/workflows/`: CI
 
 ## Coverage decisions
-**Why these endpoints:** TODO: orders cover full CRUD plus auth, which most APIs depend on; books cover reads, filtering and the contract check)
+**Why these endpoints:** /orders cover full CRUD plus auth, which most APIs depend on; /books cover reads, filtering and the contract check.
 
 **What I de-prioritized:**
 - Pagination and the `limit` parameter
